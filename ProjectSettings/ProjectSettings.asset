@@ -568,11 +568,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Template_2D
   metroPackageVersion: 
-  metroCertificatePath: 
+  metroCertificatePath: C:\Users\Giuseppe De Santis\Desktop\TEAM ELRANT\Project44\Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 80fa2e6dfb19d701
   metroApplicationDescription: Template_2D
   wsaImages: {}
   metroTileShortName: 
