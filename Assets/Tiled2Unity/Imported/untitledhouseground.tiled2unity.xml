@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 11/03/2020 16:36:26-->
+<!--Last exported: 18/03/2020 18:49:16-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="untitledhouseground_mesh_0001" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="untitledhouseground_mesh_0002" material="roguelikeSheet_transparent" />
@@ -33,6 +33,12 @@
         <RectangleObjectComponent tmx-object-id="7" tmx-object-name="" tmx-object-type="" tmx-object-x="816" tmx-object-y="384" tmx-object-width="16" tmx-object-height="144" tmx-object-rotation="0" />
         <BoxCollider2D width="16" height="144" />
       </GameObject>
+      <GameObject name="PolygonObject" x="768" y="-384" rotation="0" layer="">
+        <PolygonObjectComponent tmx-object-id="20" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="384" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>48,0 48,-16 0,-16 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
       <GameObject name="RectangleObject" x="640" y="-400" rotation="0" layer="">
         <RectangleObjectComponent tmx-object-id="6" tmx-object-name="" tmx-object-type="" tmx-object-x="640" tmx-object-y="400" tmx-object-width="16" tmx-object-height="128" tmx-object-rotation="0" />
         <BoxCollider2D width="16" height="128" />
@@ -48,6 +54,12 @@
       <GameObject name="RectangleObject" x="722.75" y="-435.938" rotation="0" layer="">
         <RectangleObjectComponent tmx-object-id="16" tmx-object-name="" tmx-object-type="" tmx-object-x="722.75" tmx-object-y="435.938" tmx-object-width="10.25" tmx-object-height="11.8125" tmx-object-rotation="0" />
         <BoxCollider2D width="10.25" height="11.8125" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="749" y="-447.818" rotation="0" layer="">
+        <PolygonObjectComponent tmx-object-id="19" tmx-object-name="" tmx-object-type="" tmx-object-x="749" tmx-object-y="447.818" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>-10.0909,-0.0909091 -13,4.18182 -13,11.9091 3,11.8182 2.81818,4.09091 0,0</Path>
+        </PolygonCollider2D>
       </GameObject>
       <GameObject name="PolygonObject" x="749" y="-463.938" rotation="0" layer="">
         <PolygonObjectComponent tmx-object-id="12" tmx-object-name="" tmx-object-type="" tmx-object-x="749" tmx-object-y="463.938" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
