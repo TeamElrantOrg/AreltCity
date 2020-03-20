@@ -288,6 +288,7 @@ MonoBehaviour:
   moveSpeed: 5
   timeBetweenMove: 2
   timeToMove: 1
+  waitToReload: 0
 --- !u!50 &711358028
 Rigidbody2D:
   serializedVersion: 4
@@ -445,6 +446,7 @@ MonoBehaviour:
   moveSpeed: 5
   timeBetweenMove: 2
   timeToMove: 1
+  waitToReload: 0
 --- !u!50 &717557034
 Rigidbody2D:
   serializedVersion: 4
@@ -723,6 +725,7 @@ MonoBehaviour:
   moveSpeed: 5
   timeBetweenMove: 2
   timeToMove: 1
+  waitToReload: 0
 --- !u!1 &1145443779
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +806,7 @@ MonoBehaviour:
   moveSpeed: 5
   timeBetweenMove: 2
   timeToMove: 1
+  waitToReload: 0
 --- !u!50 &1468985301
 Rigidbody2D:
   serializedVersion: 4
@@ -960,6 +964,7 @@ MonoBehaviour:
   moveSpeed: 5
   timeBetweenMove: 2
   timeToMove: 1
+  waitToReload: 0
 --- !u!50 &1589498665
 Rigidbody2D:
   serializedVersion: 4
@@ -1222,6 +1227,26 @@ PrefabInstance:
       propertyPath: followTarget
       value: 
       objectReference: {fileID: 28622230}
+    - target: {fileID: 5667402534600467408, guid: 8aedaec02302cdd488216bfa8492272b,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 28622236}
+    - target: {fileID: 5667402534600467408, guid: 8aedaec02302cdd488216bfa8492272b,
+        type: 3}
+      propertyPath: viewPortFactor
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667402534600467408, guid: 8aedaec02302cdd488216bfa8492272b,
+        type: 3}
+      propertyPath: followDuration
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667402534600467408, guid: 8aedaec02302cdd488216bfa8492272b,
+        type: 3}
+      propertyPath: maximumFollowSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5667402534600467409, guid: 8aedaec02302cdd488216bfa8492272b,
         type: 3}
       propertyPath: orthographic size
