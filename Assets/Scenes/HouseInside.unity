@@ -353,7 +353,7 @@ PrefabInstance:
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.9
+      value: 76.24
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
@@ -414,6 +414,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HouseEntry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460887727906174035, guid: 5d035bfbc49e7c44398b321d14277bfc,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d035bfbc49e7c44398b321d14277bfc, type: 3}
