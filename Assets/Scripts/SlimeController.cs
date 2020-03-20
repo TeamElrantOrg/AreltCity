@@ -33,6 +33,7 @@ public class SlimeController : MonoBehaviour
     }
 
     // Update is called once per frame
+    [System.Obsolete]
     void Update()
     {
       if (moving)
