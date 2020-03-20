@@ -26,7 +26,6 @@ public class CameraController : MonoBehaviour
         {
             cameraExists = true;
             
-            
         }
         else
         {
@@ -38,8 +37,8 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        targetPos = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
-        transform.position = Vector3.Lerp (transform.position, targetPos, moveSpeed * Time.deltaTime);
+        //targetPos = new Vector3(followTarget.transform.position.x, followTarget.transform.position.y, transform.position.z);
+        //transform.position = Vector3.Lerp (transform.position, targetPos, moveSpeed * Time.deltaTime);
         viewPortSize = cam.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height)) - cam.ScreenToWorldPoint(Vector2.zero) * viewPortFactor;
         targetPosition = player.position - new Vector3(0, 0, 10);
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref currentVelocity, followDuration, maximumFollowSpeed);
