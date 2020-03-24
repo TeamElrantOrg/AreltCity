@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ee44cb3014440cf449d2b2da2c04cd28
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pixel Operator 8
+  fontNames:
+  - Pixel Operator 8
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 384c66d70ae8322448da69c0f77084de, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

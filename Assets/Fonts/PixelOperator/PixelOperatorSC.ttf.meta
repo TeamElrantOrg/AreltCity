@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1bc797f8f00f90449b8a150c956ccbfe
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pixel Operator SC
+  fontNames:
+  - Pixel Operator SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c8db803008a41674a968e5b5b1bac932, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
