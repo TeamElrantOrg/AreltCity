@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 18/03/2020 18:49:06-->
+<!--Last exported: 24/03/2020 13:56:14-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="untitled_mesh_0001" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="untitled_mesh_0002" material="roguelikeSheet_transparent" />
@@ -169,6 +169,18 @@
         <EdgeCollider2D>
           <Points>0,0 -14.5,11 -14.5,49 -65,50.5 -161.5,-45.5 -162.5,-135 -191.5,-159 -210,-158.5 -225.5,-175 -240.5,-190.5 -378,-190 -399,-160.5 -399.5,-46.5 -384,-34.5 -369.5,-35 -356.5,-48.5 -356,-126.5 -338.5,-143 -273,-144.5 -286,-126.5 -286,-95 -301,-78 -302,-32 -288,-22 -282,7.25 -270.5,15 -223.5,16 -223,47 -167.5,74.5 -160,58.75 -142.5,62 -112.5,91 26,93 30,78.5 48,78 60,69 61,11 51,2.5 31,2</Points>
         </EdgeCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="701" y="-367.959" rotation="0" layer="">
+        <PolygonObjectComponent tmx-object-id="56" tmx-object-name="" tmx-object-type="" tmx-object-x="701" tmx-object-y="367.959" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 0.0078125,4.2567 2.99609,4.2567 3,-0.00110823 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="672" y="-368.003" rotation="0" layer="">
+        <PolygonObjectComponent tmx-object-id="55" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="368.003" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 0.0078125,3.75683 2.99609,3.75683 3,-0.000978088 0,0</Path>
+        </PolygonCollider2D>
       </GameObject>
       <GameObject name="RectangleObject" x="623.667" y="-448" rotation="0" layer="">
         <RectangleObjectComponent tmx-object-id="14" tmx-object-name="" tmx-object-type="" tmx-object-x="623.667" tmx-object-y="448" tmx-object-width="64.6667" tmx-object-height="47.3333" tmx-object-rotation="0" />
