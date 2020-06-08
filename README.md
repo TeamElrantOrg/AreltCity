@@ -1,3 +1,3 @@
-# UnityRPG-BETA
+# Arelt City
 
-BETA - 2D TopDown RPG in Unity
+ALPHA/INDEV - 2D TopDown RPG in Unity
