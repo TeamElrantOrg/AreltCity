@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HouseTop.unity
     guid: dcde8f465ebda6d4f9fd44d343817935
+  - enabled: 1
+    path: Assets/Scenes/BattleShit.unity
+    guid: dd04a37af868efb4bb8d7a45a5deefe0
   m_configObjects: {}
