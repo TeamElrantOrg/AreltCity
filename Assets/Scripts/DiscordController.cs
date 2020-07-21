@@ -15,8 +15,8 @@ public class DiscordController : MonoBehaviour
         var activityManager = discord.GetActivityManager();
         var activity = new Discord.Activity
         {
-            State = "Still Testing",
-            Details = "Bigger Test"
+            State = "Playtesting Arelt City!",
+            Details = "Proudly Made With Unity!"
         };
         activityManager.UpdateActivity(activity, (res) =>
         {
