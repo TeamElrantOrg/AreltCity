@@ -17,8 +17,13 @@ public class DiscordController : MonoBehaviour
 
         {
             State = "Still Testing",
-            Details = "Bigger Test"
+            Details = "Unity Is Epic."
         };
+        var activityassets = new Discord.ActivityAssets
+        {
+            LargeImage = "logo"
+        };
+
         activityManager.UpdateActivity(activity, (res) =>
         {
             if (res == Discord.Result.Ok)
