@@ -1254,7 +1254,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 28622236}
     - target: {fileID: 5667402534600467408, guid: 8aedaec02302cdd488216bfa8492272b,
         type: 3}
       propertyPath: viewPortFactor
