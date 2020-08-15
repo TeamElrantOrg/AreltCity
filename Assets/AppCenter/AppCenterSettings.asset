@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   iOSAppSecret: 
   AndroidAppSecret: 
-  UWPAppSecret: 
+  UWPAppSecret: '75ba2d09-72dc-4650-980a-eac299d5c251 '
   UseAnalytics: 1
   UseCrashes: 1
   UseDistribute: 1

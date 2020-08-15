@@ -162,6 +162,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71879ce820a59b242aae6798fd503944, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &28622239
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28622230}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0020767748, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9326898, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &58965275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -546,6 +572,7 @@ GameObject:
   - component: {fileID: 979235287}
   - component: {fileID: 979235288}
   - component: {fileID: 979235289}
+  - component: {fileID: 979235290}
   m_Layer: 0
   m_Name: weapons_swordnormal
   m_TagString: Untagged
@@ -634,6 +661,32 @@ MonoBehaviour:
   damageToGive: 10
   damageBurst: {fileID: 3515552238428539809, guid: 0f93e493b0160824f9e305b7499817ff,
     type: 3}
+--- !u!61 &979235290
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979235286}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0006327033, y: 0.24486029}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.49999976, y: 0.108223535}
+    oldSize: {x: 0.25, y: 0.625}
+    newSize: {x: 0.25, y: 0.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12473643, y: 0.625}
+  m_EdgeRadius: 0
 --- !u!1 &1089472180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,22 +1075,22 @@ PrefabInstance:
     - target: {fileID: 4239664179547962411, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.0000009536743
+      value: 0.0011402965
       objectReference: {fileID: 0}
     - target: {fileID: 4239664179547962411, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.7548008
+      value: 1.0029105
       objectReference: {fileID: 0}
     - target: {fileID: 4239664179547962411, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.03152466
+      value: -0.000058546662
       objectReference: {fileID: 0}
     - target: {fileID: 4239664179547962411, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.9299431
+      value: 0.9997947
       objectReference: {fileID: 0}
     - target: {fileID: 6987086915062904331, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}

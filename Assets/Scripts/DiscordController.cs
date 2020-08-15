@@ -23,14 +23,6 @@ public class DiscordController : MonoBehaviour
         {
             LargeImage = "logo"
         };
-
-        activityManager.UpdateActivity(activity, (res) =>
-        {
-            if (res == Discord.Result.Ok)
-            {
-                Debug.LogError("Everything is fine!");
-            }
-        });
     }
 
     // Update is called once per frame
