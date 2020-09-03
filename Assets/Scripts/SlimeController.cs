@@ -6,6 +6,8 @@ public class SlimeController : MonoBehaviour
 {
     public float moveSpeed;
 
+    public int damageToGive;
+
     private Rigidbody2D myRigidbody;
 
     private bool moving;
@@ -73,13 +75,10 @@ public class SlimeController : MonoBehaviour
         }
     void OnCollisionEnter2D (Collision2D other)
     {
-        /*if (other.gameObject.name  == "Player")
+        if (other.gameObject.name == "Player")
         {
-            //Destroy(other.gameObject);
-            other.gameObject.SetActive(false);
-            reloading = true;
-            ThePlayer = other.gameObject;
-        }*/
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(damageToGive);
+        }
 
     }
 }

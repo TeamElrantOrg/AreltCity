@@ -8,6 +8,7 @@ public class HurtEnemy : MonoBehaviour
 {
     public int damageToGive;
     public GameObject damageBurst;
+    public Transform hitPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class HurtEnemy : MonoBehaviour
         {
             //Destroy(other.gameObject);
             other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
-            Instantiate(damageBurst, transform.position, transform.rotation);
+            Instantiate(damageBurst, hitPoint.position, hitPoint.rotation);
         }
     }
 }

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5735783331553189962}
   - component: {fileID: 2453636662881201465}
   - component: {fileID: 7955964910426377087}
+  - component: {fileID: -1024704956667209432}
   m_Layer: 0
   m_Name: BETASlimeSpritesheet1_0
   m_TagString: Enemy
@@ -30,9 +31,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5735783331553189960}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -57.016476, y: -4.7569656, z: 26.573658}
-  m_LocalScale: {x: 7.252125, y: 7.25, z: 1}
+  m_LocalScale: {x: 7.25, y: 7.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -142,6 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  damageToGive: 25
   timeBetweenMove: 2
   timeToMove: 1
   waitToReload: 0
@@ -183,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a506ae0bd3632e4fbf5fcadacaa4922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToGive: 10
+  damageToGive: 25
 --- !u!114 &7955964910426377087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +200,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyMaxHealth: 20
   enemyCurrentHealth: 0
+--- !u!61 &-1024704956667209432
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5735783331553189960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0003925562, y: -0.009821255}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.14036337, y: 0.119929604}
+  m_EdgeRadius: 0
