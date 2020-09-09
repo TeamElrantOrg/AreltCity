@@ -133,6 +133,8 @@ MonoBehaviour:
   damageBurst: {fileID: 3515552238428539809, guid: 0f93e493b0160824f9e305b7499817ff,
     type: 3}
   hitPoint: {fileID: 1958897831}
+  damageNumber: {fileID: 5674972466409189363, guid: f5d3419d700023043a9915afa625def8,
+    type: 3}
 --- !u!61 &979235290
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -146,7 +148,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0006327033, y: 0.24486029}
+  m_Offset: {x: 0.0006327033, y: 0.26450586}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49999976, y: 0.108223535}
@@ -157,7 +159,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12473643, y: 0.625}
+  m_Size: {x: 0.12473643, y: 0.66429114}
   m_EdgeRadius: 0
 --- !u!1 &1958897830
 GameObject:
@@ -295,6 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   lastMove: {x: 0, y: 0}
+  startPoint: 
   attackTime: 1
 --- !u!95 &3311410043211726694
 Animator:
@@ -343,13 +346,13 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3311410043211726698}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0011402667, y: -0.016657114}
+  m_Offset: {x: -0.0016096234, y: 0.0149665475}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -360,7 +363,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.94204825, y: 0.911268}
+  m_Size: {x: 0.6285621, y: 0.9745153}
   m_EdgeRadius: 0
 --- !u!70 &28622239
 CapsuleCollider2D:
@@ -390,7 +393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63acb9a55c60a4644a445322c98b6a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMaxHealth: 50
+  playerMaxHealth: 100
   playerCurrentHealth: 0
 --- !u!114 &1847818045
 MonoBehaviour:
@@ -423,6 +426,60 @@ PrefabInstance:
       propertyPath: m_Name
       value: UserReportingPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 114080395055415884, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114148768700441844, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114331344939382136, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 1bc797f8f00f90449b8a150c956ccbfe,
+        type: 3}
+    - target: {fileID: 114387445604649206, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114477796898511788, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114507749335404710, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114623892956103322, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114814631807416556, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
+    - target: {fileID: 114883221567375630, guid: c1aa92cd8198f654b933334ac725dc4f,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 65301dcb76b8ab34d8c470cf7c0f9f7a,
+        type: 3}
     - target: {fileID: 224535167193121672, guid: c1aa92cd8198f654b933334ac725dc4f,
         type: 3}
       propertyPath: m_LocalPosition.x

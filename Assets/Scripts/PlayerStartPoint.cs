@@ -11,18 +11,24 @@ public class PlayerStartPoint : MonoBehaviour
 
     public Vector2 startDirection;
 
+    public string pointName;
+
     // Start is called before the first frame update
     void Start()
     {
         if (Mobile == true){
             thePlayer2 = FindObjectOfType<MobileController>();
+            if(thePlayer.startPoint == pointName){
             thePlayer2.transform.position = transform.position;
             thePlayer2.lastMove = startDirection;
         }
+    }
         else if (Mobile == false) {
             thePlayer = FindObjectOfType<PlayerController>();
-            thePlayer.transform.position = transform.position;
-            thePlayer.lastMove = startDirection;
+            if (thePlayer.startPoint == pointName){
+                thePlayer.transform.position = transform.position;
+                thePlayer.lastMove = startDirection;
+            }
         }
         theCamera = FindObjectOfType<CameraController>();
         theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);

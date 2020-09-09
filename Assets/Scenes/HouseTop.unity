@@ -265,6 +265,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7460887727906174033, guid: 5d035bfbc49e7c44398b321d14277bfc,
+        type: 3}
+      propertyPath: exitPoint
+      value: TestHouseDownStairs
+      objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174034, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_Name
@@ -301,7 +306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d8753929fbed94b854d131b6db2ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Mobile: 0
   startDirection: {x: 0, y: 1}
+  pointName: TestHouseUpStair
 --- !u!4 &287045360
 Transform:
   m_ObjectHideFlags: 0

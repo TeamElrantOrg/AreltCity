@@ -5,7 +5,8 @@ using UnityEngine;
 public class MobileController : MonoBehaviour
 {
     public float moveSpeed;
-
+    private float currentMoveSpeed;
+    public float diagonalMoveModifier;
     private Animator anim;
     private Rigidbody2D myRigidbody;
 
@@ -53,7 +54,7 @@ public class MobileController : MonoBehaviour
             if (joystick.Horizontal > 0.5f || joystick.Horizontal < -0.5f)
             {
                 //transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-                myRigidbody.velocity = new Vector2(joystick.Horizontal * moveSpeed, myRigidbody.velocity.y);
+                myRigidbody.velocity = new Vector2(joystick.Horizontal * currentMoveSpeed, myRigidbody.velocity.y);
                 playerMoving = true;
                 lastMove = new Vector2(joystick.Horizontal, 0f);
             }
@@ -61,7 +62,7 @@ public class MobileController : MonoBehaviour
             if (joystick.Vertical > 0.5f || joystick.Vertical < -0.5f)
             {
                 //transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, joystick.Vertical * moveSpeed);
+                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, joystick.Vertical * currentMoveSpeed);
                 playerMoving = true;
                 lastMove = new Vector2(0f, joystick.Vertical);
             }
@@ -81,6 +82,18 @@ public class MobileController : MonoBehaviour
             {
                 AttackFunction();
             }
+
+
+
+            if (Mathf.Abs(joystick.Horizontal) > 0.5f && Mathf.Abs(joystick.Vertical) > 0.5f){
+                currentMoveSpeed = moveSpeed * diagonalMoveModifier;
+            }
+            else
+            {
+                currentMoveSpeed = moveSpeed;
+            }
+
+
         }
 
         if(attackTimeCounter > 0)

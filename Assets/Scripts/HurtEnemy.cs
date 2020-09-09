@@ -9,6 +9,9 @@ public class HurtEnemy : MonoBehaviour
     public int damageToGive;
     public GameObject damageBurst;
     public Transform hitPoint;
+    public GameObject damageNumber;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,8 @@ public class HurtEnemy : MonoBehaviour
             //Destroy(other.gameObject);
             other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
             Instantiate(damageBurst, hitPoint.position, hitPoint.rotation);
+            var clone = (GameObject) Instantiate(damageNumber, hitPoint.position, Quaternion.Euler(Vector3.zero));
+            clone.GetComponent<FloatingNumbers>().damageNumber = damageToGive;
         }
     }
 }

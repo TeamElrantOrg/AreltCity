@@ -134,12 +134,12 @@ PrefabInstance:
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70.81
+      value: 70.91
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -30.870003
+      value: -30.77
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
@@ -169,7 +169,7 @@ PrefabInstance:
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
@@ -205,6 +205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: levelToLoad
       value: Main
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460887727906174033, guid: 5d035bfbc49e7c44398b321d14277bfc,
+        type: 3}
+      propertyPath: exitPoint
+      value: TestHouseOut
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174034, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
@@ -242,7 +247,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d8753929fbed94b854d131b6db2ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Mobile: 0
   startDirection: {x: 0, y: 1}
+  pointName: TestHouseIn
 --- !u!4 &473190759
 Transform:
   m_ObjectHideFlags: 0
@@ -251,11 +258,57 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473190757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 70.89, y: -29.32, z: 0}
+  m_LocalPosition: {x: 70.86, y: -29.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &727911219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 727911221}
+  - component: {fileID: 727911220}
+  m_Layer: 0
+  m_Name: StartPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &727911220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727911219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d8753929fbed94b854d131b6db2ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mobile: 0
+  startDirection: {x: 0, y: 1}
+  pointName: TestHouseDownStairs
+--- !u!4 &727911221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727911219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 75.12, y: -26.94, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &765482449
 PrefabInstance:
@@ -356,12 +409,12 @@ PrefabInstance:
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.08
+      value: 76.84
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -26.79
+      value: -26.77
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174032, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
@@ -412,6 +465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: levelToLoad
       value: HouseTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7460887727906174033, guid: 5d035bfbc49e7c44398b321d14277bfc,
+        type: 3}
+      propertyPath: exitPoint
+      value: TestHouseUpStair
       objectReference: {fileID: 0}
     - target: {fileID: 7460887727906174034, guid: 5d035bfbc49e7c44398b321d14277bfc,
         type: 3}
