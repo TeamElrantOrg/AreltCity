@@ -5,9 +5,7 @@ using UnityEngine;
 public class PlayerStartPoint : MonoBehaviour
 {
     private PlayerController thePlayer;
-    private MobileController thePlayer2;
     private CameraController theCamera;
-    public bool Mobile;
 
     public Vector2 startDirection;
 
@@ -16,19 +14,10 @@ public class PlayerStartPoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Mobile == true){
-            thePlayer2 = FindObjectOfType<MobileController>();
-            if(thePlayer.startPoint == pointName){
-            thePlayer2.transform.position = transform.position;
-            thePlayer2.lastMove = startDirection;
-        }
-    }
-        else if (Mobile == false) {
-            thePlayer = FindObjectOfType<PlayerController>();
-            if (thePlayer.startPoint == pointName){
-                thePlayer.transform.position = transform.position;
-                thePlayer.lastMove = startDirection;
-            }
+        thePlayer = FindObjectOfType<PlayerController>();
+        if (thePlayer.startPoint == pointName){
+            thePlayer.transform.position = transform.position;
+            thePlayer.lastMove = startDirection;
         }
         theCamera = FindObjectOfType<CameraController>();
         theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
