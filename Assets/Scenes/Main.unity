@@ -1032,7 +1032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d8753929fbed94b854d131b6db2ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Mobile: 0
   startDirection: {x: 0, y: 0}
   pointName: TestHouseOut
 --- !u!4 &1145443781
@@ -1637,6 +1636,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1847818045, guid: a59d20c93e022df40900b7a9f1069f46, type: 3}
+      propertyPath: m_CropFrameX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847818045, guid: a59d20c93e022df40900b7a9f1069f46, type: 3}
+      propertyPath: m_CropFrameY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847818045, guid: a59d20c93e022df40900b7a9f1069f46, type: 3}
+      propertyPath: m_AssetsPPU
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3311410043211726692, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1695,12 +1706,32 @@ PrefabInstance:
     - target: {fileID: 3311410043211726693, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: diagonalMoveModifier
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 3311410043211726698, guid: a59d20c93e022df40900b7a9f1069f46,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3311410043211726699, guid: a59d20c93e022df40900b7a9f1069f46,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3311410043211726699, guid: a59d20c93e022df40900b7a9f1069f46,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239664179547962411, guid: a59d20c93e022df40900b7a9f1069f46,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.017048419
+      objectReference: {fileID: 0}
+    - target: {fileID: 4239664179547962411, guid: a59d20c93e022df40900b7a9f1069f46,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9104854
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a59d20c93e022df40900b7a9f1069f46, type: 3}

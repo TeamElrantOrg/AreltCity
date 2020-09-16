@@ -205,7 +205,6 @@ GameObject:
   - component: {fileID: 3311410043211726694}
   - component: {fileID: 3311410043211726688}
   - component: {fileID: 4239664179547962411}
-  - component: {fileID: 28622239}
   - component: {fileID: 28622232}
   m_Layer: 0
   m_Name: Player
@@ -296,6 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  diagonalMoveModifier: 0
   lastMove: {x: 0, y: 0}
   startPoint: 
   attackTime: 1
@@ -365,22 +365,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6285621, y: 0.9745153}
   m_EdgeRadius: 0
---- !u!70 &28622239
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3311410043211726698}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0027664006, y: 0.00041213632}
-  m_Size: {x: 0.62376124, y: 0.87761444}
-  m_Direction: 0
 --- !u!114 &28622232
 MonoBehaviour:
   m_ObjectHideFlags: 0
