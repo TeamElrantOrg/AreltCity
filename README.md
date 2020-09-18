@@ -1,8 +1,7 @@
 # Arelt City
 ## by Team Elrant
 
-ALPHA - 2D TopDown RPG in Unity
-Still just a Prototype.
+ALPHA - 2D TopDown RPG in Unity, Still just a Prototype.
 
 
 - Development Phase: Fixing bugs, Implementing features
