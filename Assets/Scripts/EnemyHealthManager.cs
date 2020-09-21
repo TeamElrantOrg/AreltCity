@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class EnemyHealthManager : MonoBehaviour
 {
+    public int expToGive;
     public int enemyMaxHealth;
     public int enemyCurrentHealth;
+    private PlayerStats thePlayerStats;
 
     // Start is called before the first frame update
     void Start()
     {
         enemyCurrentHealth = enemyMaxHealth;
 
+        thePlayerStats = FindObjectOfType<PlayerStats>();
 
     }
 
@@ -22,7 +25,7 @@ public class EnemyHealthManager : MonoBehaviour
         {
             Destroy(gameObject);
 
-
+            thePlayerStats.AddExperience(expToGive);
         }
     }
     public void HurtEnemy(int damageToGive)
