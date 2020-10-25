@@ -60,8 +60,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1958897831}
+  m_Children: []
   m_Father: {fileID: 315373213}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -132,7 +131,7 @@ MonoBehaviour:
   damageToGive: 5
   damageBurst: {fileID: 3515552238428539809, guid: 0f93e493b0160824f9e305b7499817ff,
     type: 3}
-  hitPoint: {fileID: 1958897831}
+  hitPoint: {fileID: 0}
   damageNumber: {fileID: 5674972466409189363, guid: f5d3419d700023043a9915afa625def8,
     type: 3}
 --- !u!61 &979235290
@@ -161,36 +160,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.12473643, y: 0.66429114}
   m_EdgeRadius: 0
---- !u!1 &1958897830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1958897831}
-  m_Layer: 0
-  m_Name: HitPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1958897831
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958897830}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.007, y: 0.409, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 979235287}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3311410043211726698
 GameObject:
   m_ObjectHideFlags: 0
