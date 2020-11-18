@@ -5,7 +5,7 @@ ALPHA - 2D TopDown RPG in Unity, Still just a Prototype.
 
 
 - Development Phase: Fixing bugs, Implementing features
-- Mobile Version: DISCONTINUED UNTIL 31/12/2020, Sorry!
+- Mobile Version: DISCONTINUED UNTIL PC VERSION IS READY, Sorry!
 
 > Made by: [Gusp3h](https://twitter.com/Gusp3h) and [Hideki](https://www.youtube.com/channel/UCAy70ymYH-zoRg-nNT_SzvQ).
 
